@@ -1,6 +1,4 @@
 data/legacy/
 **/.venv/
 *.log
-projects/
-hugo_bolg_file
 data/legacy/*.tar.gz
