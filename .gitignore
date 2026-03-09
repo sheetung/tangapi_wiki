@@ -3,3 +3,4 @@ data/legacy/
 *.log
 data/legacy/*.tar.gz
 hugo_bolg_file
+projects/hugo_bolg_file
