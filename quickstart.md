@@ -61,7 +61,7 @@ print(response.choices[0].message.content)
 ### 使用 cURL
 
 ```bash
-curl -X POST https://api.tangapi.com/v1/chat/completions \
+curl -X POST http://49.233.13.104:3333/v1/chat/completions \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{

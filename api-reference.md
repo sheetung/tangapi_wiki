@@ -6,7 +6,7 @@
 
 | 项目 | 说明 |
 |------|------|
-| 基础 URL | `https://api.tangapi.com` |
+| 基础 URL | `http://49.233.13.104:3333` |
 | 认证方式 | Bearer Token |
 | 数据格式 | JSON |
 | 编码 | UTF-8 |
@@ -74,7 +74,7 @@ POST /v1/chat/completions
 ### 请求示例
 
 ```bash
-curl -X POST https://api.tangapi.com/v1/chat/completions \
+curl -X POST http://49.233.13.104:3333/v1/chat/completions \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -119,7 +119,7 @@ curl -X POST https://api.tangapi.com/v1/chat/completions \
 设置 `stream: true` 获取流式响应：
 
 ```bash
-curl -X POST https://api.tangapi.com/v1/chat/completions \
+curl -X POST http://49.233.13.104:3333/v1/chat/completions \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
