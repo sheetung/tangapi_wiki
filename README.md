@@ -18,7 +18,7 @@ TangAPI 是一个提供大语言模型 API 接入服务的平台，支持多种�
 
 ### 获取 API Key
 
-1. 登录 [TangAPI 控制台](https://tangapi.com)
+1. 登录 [TangAPI 控制台](http://49.233.13.104:3333)
 2. 进入「API 密钥」页面
 3. 点击「创建密钥」
 4. 复制并妥善保存您的 API Key
