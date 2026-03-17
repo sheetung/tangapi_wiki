@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-03-17T10:06:00.000000",
+  "codes": [
+    {
+      "code": "yuanshen",
+      "rewards": "原石×50、大英雄的经验×3",
+      "type": "永久",
+      "status": "有效"
+    },
+    {
+      "code": "FZ56LE7ME4JJ",
+      "rewards": "原石×60",
+      "type": "限时",
+      "expire": "2026-03-17",
+      "status": "有效"
+    },
+    {
+      "code": "EZLN5WP4F42N",
+      "rewards": "原石×40、冬凌草×5、摩拉×20000、冒险家的经验×5、「月光」的教导×3",
+      "type": "限时",
+      "expire": "2026-03-17",
+      "status": "有效"
+    }
+  ]
+}
