@@ -7,20 +7,20 @@
 - 已注册 TangAPI 账户
 - 已获取 API Key
 
-## 步骤 1：安装 SDK（可选）
+## 步骤 1：安装 OpenAI SDK
 
-我们提供多种语言的 SDK，您也可以直接使用 HTTP 请求。
+TangAPI 兼容 OpenAI API，您可以直接使用 OpenAI SDK。
 
 ### Python
 
 ```bash
-pip install tangapi-sdk
+pip install openai
 ```
 
 ### Node.js
 
 ```bash
-npm install tangapi-sdk
+npm install openai
 ```
 
 ## 步骤 2：配置 API Key
@@ -28,25 +28,30 @@ npm install tangapi-sdk
 ### 方式一：环境变量（推荐）
 
 ```bash
-export TANGAPI_API_KEY="your_api_key_here"
+export OPENAI_API_KEY="your_tangapi_api_key"
+export OPENAI_BASE_URL="http://49.233.13.104:3333/v1"
 ```
 
 ### 方式二：代码中配置
 
 ```python
-from tangapi import TangAPI
+from openai import OpenAI
 
-client = TangAPI(api_key="your_api_key_here")
+client = OpenAI(
+    api_key="your_tangapi_api_key",
+    base_url="http://49.233.13.104:3333/v1"
+)
 ```
 
-## 步骤 3：发送第一请求
-
-### 使用 SDK
+## 步骤 3：发送第一个请求
 
 ```python
-from tangapi import TangAPI
+from openai import OpenAI
 
-client = TangAPI(api_key="your_api_key_here")
+client = OpenAI(
+    api_key="your_tangapi_api_key",
+    base_url="http://49.233.13.104:3333/v1"
+)
 
 response = client.chat.completions.create(
     model="gpt-4",
