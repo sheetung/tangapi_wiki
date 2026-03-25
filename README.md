@@ -35,6 +35,10 @@ curl -X POST https://tang.092366.xyz/v1/chat/completions \
   }'
 ```
 
+## 说明
+
+- 价格与计费请以官方页面为准： [Tang API](https://tang.092366.xyz/pricing)
+
 ## 文档目录
 
 - [快速开始](quickstart.md) - 5分钟快速入门
