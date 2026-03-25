@@ -18,7 +18,7 @@ TangAPI 是一个提供大语言模型 API 接入服务的平台，支持多种�
 
 ### 获取 API Key
 
-1. 登录 [TangAPI 控制台](http://49.233.13.104:3333)
+1. 登录 [TangAPI 控制台](https://tang.092366.xyz)
 2. 进入「API 密钥」页面
 3. 点击「创建密钥」
 4. 复制并妥善保存您的 API Key
@@ -26,7 +26,7 @@ TangAPI 是一个提供大语言模型 API 接入服务的平台，支持多种�
 ### 调用示例
 
 ```bash
-curl -X POST http://49.233.13.104:3333/v1/chat/completions \
+curl -X POST https://tang.092366.xyz/v1/chat/completions \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{

@@ -29,7 +29,7 @@ npm install openai
 
 ```bash
 export OPENAI_API_KEY="your_tangapi_api_key"
-export OPENAI_BASE_URL="http://49.233.13.104:3333/v1"
+export OPENAI_BASE_URL="https://tang.092366.xyz/v1"
 ```
 
 ### 方式二：代码中配置
@@ -39,7 +39,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="your_tangapi_api_key",
-    base_url="http://49.233.13.104:3333/v1"
+    base_url="https://tang.092366.xyz/v1"
 )
 ```
 
@@ -50,7 +50,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key="your_tangapi_api_key",
-    base_url="http://49.233.13.104:3333/v1"
+    base_url="https://tang.092366.xyz/v1"
 )
 
 response = client.chat.completions.create(
@@ -66,7 +66,7 @@ print(response.choices[0].message.content)
 ### 使用 cURL
 
 ```bash
-curl -X POST http://49.233.13.104:3333/v1/chat/completions \
+curl -X POST https://tang.092366.xyz/v1/chat/completions \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
