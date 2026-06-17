@@ -3,3 +3,4 @@
 - [API 参考](api-reference.md)
 - [价格说明](pricing.md)
 - [常见问题](faq.md)
+- [用户协议与隐私政策](terms.md)

@@ -26,7 +26,7 @@ TangAPI 是一个提供大语言模型 API 接入服务的平台，支持多种�
 ### 调用示例
 
 ```bash
-curl -X POST https://tang.092366.xyz/v1/chat/completions \
+curl -X POST https://ai.092399.xyz/v1/chat/completions \
   -H "Authorization: Bearer YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
